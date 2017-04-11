@@ -1,0 +1,14 @@
+line 1
+line 2
+@template(t1)
+tpl 1 line
+tpl 1 line
+@endtemplate
+line 3
+line 4
+@template('t2')
+tpl 2 line
+tpl 2 line
+@endtemplate
+line 5
+line 6

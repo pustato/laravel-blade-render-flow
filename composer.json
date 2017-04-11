@@ -1,0 +1,27 @@
+{
+  "name": "pustato/laravel-blade-render-flow",
+  "description": "Render flow extension for Laravel Blade",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Atamanov",
+      "email": "pustato.aas@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pustato\\LaravelBladeRenderFlow\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
